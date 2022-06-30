@@ -20,9 +20,12 @@ export default function Movie1() {
     }, [])
 
     return (
-			<div
-				ref={ref}
-				className='dds__d-flex dds__flex-grow-1 dds__overflow-hidden'
-			></div>
+			<>
+				<div>Title: movie 11111</div>
+				<div
+					ref={ref}
+					className='dds__d-flex dds__flex-grow-1 dds__overflow-hidden'
+				></div>
+			</>
 		);
 }
